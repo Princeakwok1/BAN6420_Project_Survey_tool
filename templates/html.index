@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h2>Survey Form</h2>
+    <form method="POST">
+        Age: <input type="number" name="age" required><br>
+        Gender: 
+        <select name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+        Income: <input type="number" name="income" required><br>
+
+        <h3>Expenses</h3>
+        <input type="checkbox" name="utilities"> Utilities: <input type="number" name="utilities"><br>
+        <input type="checkbox" name="entertainment"> Entertainment: <input type="number" name="entertainment"><br>
+        <input type="checkbox" name="school_fees"> School Fees: <input type="number" name="school_fees"><br>
+        <input type="checkbox" name="shopping"> Shopping: <input type="number" name="shopping"><br>
+        <input type="checkbox" name="healthcare"> Healthcare: <input type="number" name="healthcare"><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
